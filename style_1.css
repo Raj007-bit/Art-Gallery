@@ -1,0 +1,254 @@
+.colored{
+  background-color: #00adb5;
+  color: #eeeeee;
+  text-align: center;
+  padding:10% 10%;
+}
+.uncolored{
+  background-color:#eeeeee;
+  text-align: center;
+  padding:10% 10%;
+}
+.navbar{
+  margin:.1rem .5rem;
+  border-radius:12px;
+}
+.brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #fff;
+}
+.brand:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.searchbar{
+ height: 40px;
+ background-color: #353b48;
+ border-radius: 30px;
+ }
+
+ .search_input{
+ color: white;
+ line-height: 40px;
+ border: 0;
+ outline: 0;
+ background: none;
+ width: 0;
+ caret-color:transparent;
+ transition: 0.4s linear;
+ }
+
+ .searchbar:hover > .search_input{
+ line-height: 40px;
+ width:130px;
+ caret-color:#00adb5;
+ }
+
+ .searchbar:hover > .search_icon{
+ color:#00adb5;
+ text-decoration: none;
+ }
+
+
+ .search_icon{
+ height: 40px;
+ width: 40px;
+ float: right;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius:10px;
+ color:white;
+ text-decoration:none;
+ }
+
+.nav-link {
+  font-size: 1rem;
+  transition:0.2s;
+}
+
+.nav-item::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:3px;
+    background:#00adb5;
+    transition: .4s;
+}
+.nav-item:hover::after{
+  width:100%;
+}
+
+.heading1{
+  font-size:4rem;
+  padding-top: 1rem;
+}
+h2{
+  padding-top: 1rem;
+}
+.about{
+  text-align: left;
+  color: white;
+}
+.colored1{
+  padding:6% 5%;
+	background-image: -webkit-linear-gradient(65deg, #00abd5 50%, #e0dede 50%);
+}
+.jumbotron{
+color: #000;
+}
+.jumbotron-sm {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ }
+.jumbotron small {
+color: #000;
+}
+.h1 small {
+font-size:20px;
+}
+
+.featurette{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.placeholder-img{
+  height: 300px;
+  width: 400px;
+  border-radius: 5px;
+}
+.download-button {
+  margin: 8% 3% 8% 0;
+}
+
+
+#features {
+  text-align: center;
+}
+
+.feature-h3 {
+  font-style: ubuntu;
+  font-size: 2rem;
+  padding:3rem 2rem;
+}
+
+.icons {
+  color: #00adb5;
+  font-size: 4rem;
+}
+
+
+
+#testimonials{
+  padding:2% 0%;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+  color: #eeeeee;
+}
+
+.heading2 {
+  font-family:ubuntu;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.testimonial-image{
+  width:20rem;
+  height:22rem;
+}
+.pricing-column{
+  padding:4% 2%;
+}
+.card-body {
+  padding: 5% 2%;
+}
+
+p{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #8f8f8f;
+}
+
+.cta-btn {
+  margin: 5rem 1.5rem 0 1.5rem;
+}
+
+.heading3 {
+  font-family: ubuntu;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+#footer {
+  padding:20px 80px;
+	background-image: -webkit-linear-gradient(65deg, #ffa5b0 50%, #e0dede 50%);
+    text-align: center;
+}
+#footer h5{
+  	padding-left: 10px;
+    border-left: 3px solid #000;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#000;
+}
+#footer a {
+    color: #654062;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    transition: all .4s ease;
+}
+#footer a:hover{
+  text-decoration: underline;
+  color: #654062;
+  padding-left: 15px;
+}
+.icon {
+  color: #000;
+  transition-duration:.4s;
+ 	transition-property:transform;
+  margin: .5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.icon:hover{
+  color:#fff;
+  transform: scale(1.4);
+}
+
+@media (max-width:600px) {
+  .testimonial-image {
+    width:15rem;
+    height:15rem;
+  }
+}
+  .scrollToTop{
+
+  	background: #000;
+  	height: 50px;
+  	width: 50px;
+  	right: 30px;
+  	bottom: 18px;
+  	position: fixed;
+  	color: #fff;
+  	font-size: 20px;
+  	text-align: center;
+  	border-radius: 50%;
+  	line-height: 48px;
+  	border: 2px solid transparent;
+  	box-shadow: 0 0 10px 3px rgba(108,98,98,0.2);
+    z-index: 1;
+  }
+  .scrollToTop:hover{
+      text-decoration:none;
+  		color:#A683E3;
+  }

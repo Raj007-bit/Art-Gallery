@@ -1,0 +1,86 @@
+body#LoginForm {
+  background-image: url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+}
+
+.main-div {
+  background: #ffffff;
+  border-radius: 5px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 3rem;
+  text-align: center;
+  font-family: cursive;
+}
+
+.form-heading {
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.panel h2 {
+  color: #d45d79;
+  font-size: 1.5rem;
+}
+
+.panel p {
+  color: #777777;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.form-control {
+  margin-top: 1rem;
+  background: #f7f7f7 ;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.icon {
+  font-size: 30px;
+  padding: 10px;
+  color: #d45d79;
+}
+
+.forgot a {
+  color: #777777;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.forgot a:hover {
+  color: #d45d79;
+  text-decoration: none;
+}
+
+.btn-1 {
+  background-color: #8f8f8f;
+  border-color: #d45d79;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 15px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+
+.btn-1:hover {
+  background-color: #d45d79;
+  border-color: #8f8f8f;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 15px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
